@@ -278,10 +278,12 @@ footer {
 
     /* #################### ABOUT ####################*/
     .about {
-        margin-top: 100px;
+        margin-top: 70px;
+        padding-left: 55px;
+        padding-right: 55px;
     }
     .about .text h1 {
-        font-size: 52px;
+        font-size: 42px;
     }
 
     .about .text p {
@@ -290,6 +292,7 @@ footer {
     
     .about .img img {
         width: 290px;
+        margin-top: 7px;
     }
 
     .about .img p {
@@ -305,6 +308,17 @@ footer {
     }
     .service .title {
         font-size: 52px;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+
+    .service .list-service .service-1, .service-3 {
+        padding-left: 50px;
+    }
+
+    .service .list-service .service-2, .service-4 {
+        padding-right: 50px;
     }
 
     .service .list-service img {
@@ -322,7 +336,7 @@ footer {
         margin-top: 100px;
     }
     .project .title {
-        font-size: 50px;
+        font-size: 42px;
     }
 
     .project .list-project {
@@ -345,7 +359,7 @@ footer {
     }
     
     .information h2 {
-        font-size: 30px;
+        font-size: 42px;
     }
 
     .information .btn {
