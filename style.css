@@ -1,0 +1,426 @@
+/* Header Area */
+
+.navbar {
+    position: relative;
+    z-index: 2;
+    background: transparent;
+}
+
+.navbar .navbar-brand img {
+    width: 163px;
+}
+
+.navbar .navbar-nav .nav-link {
+    margin-left: 52px;
+    font-size: 21px !important;
+}
+
+/* End Header Area */
+
+
+/* Main Area */
+
+/* #################### BANNER ####################*/
+
+.banner {
+    height: 800px;
+    background-image: url(assets/images/banner.png);
+    background-size: cover;
+    margin-top: -128px;
+}
+
+.banner::after {
+    content: ' ';
+    display: block;
+    width: 100%;
+    height: 797px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 70%;
+    z-index: 1;
+}
+
+.banner h1 {
+    font-size: 83px;
+    font-weight: bold;
+    color: white;
+    margin-top: 200px;
+    position: relative;
+    z-index: 2;
+}
+
+.banner .btn.hubungi-kami {
+    background-color: #0084A1;
+    border: none;
+    border-radius: 24px;
+    width: 231px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+    margin-top: 10px;
+}
+
+
+
+/* #################### ABOUT ####################*/
+
+.about {
+    margin-top: 153px;
+    /* margin-bottom: 153px; */
+}
+
+.about .text h1 {
+    font-weight: bold;
+    font-size: 62px;
+    color: black;
+}
+
+.about .text p {
+    font-size: 34px;
+}
+
+
+.about .img {
+    justify-content: center;
+}
+
+.about .img img {
+    width: 489px;
+}
+
+.about .img p {
+    font-size: 19px;
+    font-weight: 300;
+    margin-top: 14px;
+    text-align: center;
+}
+
+.about .img p span {
+    font-weight: 500;
+}
+
+
+
+/* #################### SERVICES ####################*/
+.service {
+    background-color: black;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-top: 150px;
+}
+
+.service .title {
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+}
+
+.service .list-service {
+    margin-top: 50px;
+}
+
+.service .list-service img {
+    width: 170px;
+}
+
+.service .list-service p {
+    text-align: center;
+    font-size: 37px;
+    color: white;
+    margin-top: 20px;
+}
+
+
+
+/* #################### PROJECT ####################*/
+.project {
+    margin-top: 150px;
+}
+.project .title {
+    font-size: 70px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.project .list-project {
+    margin-bottom: 40px;
+}
+
+.project .list-project img{
+    width: 320px;
+    margin-bottom: 20px;
+}
+
+.project a {
+    text-align: center;
+    color: black;
+    font-weight: medium;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+
+/* #################### INFORMATION ####################*/
+.information {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    margin-top: 100px;
+}
+
+.information h2 {
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 34px;
+}
+
+.information .btn {
+    background-color: transparent;
+    color: white;
+    border: 5px solid white;
+    border-radius: 50px;
+    width: 284px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 22px;
+    font-weight: medium;
+}
+
+
+
+/* #################### CONTACT ####################*/
+.contact {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.contact .logo {
+    display: flex;
+    justify-content: center;
+}
+
+.contact .logo img {
+    width: 365px;
+}
+
+.contact .list-contact img {
+    width: 36px;
+}
+
+.contact .list-contact p {
+    font-size: 25px;
+}
+
+
+/* End Main Area */
+
+
+/* Footer Area */
+footer {
+    background-color: #2F2F2F;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    color: #9D9D9D;
+    font-size: 25px;
+    margin-top: 80px;
+}
+/* End Footer Area */
+
+
+
+@media (max-width: 767px) { 
+    /* Header Area */
+    .navbar {
+        background-color: black !important;
+    }
+    .navbar .navbar-nav .nav-link {
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    .navbar .navbar-brand img{
+        width: 130px;
+    }
+    /* End Header Area */
+
+    /* Main Area */
+    
+    /* #################### BANNER ####################*/
+    .banner {
+        margin-top: 0;
+        height: 700px;
+        background-position-x: center;
+        text-align: center;
+    }
+
+    .banner::after {
+        height: 805px;
+    }
+
+    .banner h1 {
+        margin-top: 70px;
+        font-size: 60px;
+    }
+
+
+    /* #################### ABOUT ####################*/
+    .about {
+        margin-top: 100px;
+    }
+    .about .text h1 {
+        font-size: 52px;
+    }
+
+    .about .text p {
+        font-size: 18px;
+    }
+    
+    .about .img img {
+        width: 290px;
+    }
+
+    .about .img p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+
+
+    /* #################### SERVICES ####################*/
+    .service {
+        margin-top: 100px;
+    }
+    .service .title {
+        font-size: 52px;
+    }
+
+    .service .list-service img {
+        width: 120px;
+    }
+
+    .service .list-service p {
+        font-size: 25px;
+    }
+
+
+
+    /* #################### PROJECT ####################*/
+    .project {
+        margin-top: 100px;
+    }
+    .project .title {
+        font-size: 50px;
+    }
+
+    .project .list-project {
+        margin-bottom: 30px;
+    }
+
+    .project .list-project img {
+        width: 300px;
+    }
+
+
+
+    /* #################### INFORMATION ####################*/
+    .information {
+        margin-top: 70px;
+    }
+    
+    .information h2 {
+        font-size: 30px;
+    }
+
+    .information .btn {
+        width: 250px;
+        font-size: 18px;
+    }
+
+
+
+
+    /* #################### CONTACT ####################*/
+
+    .contact .logo {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .contact .logo img {
+        width: 280px;
+    }
+
+    .contact .list-contact img {
+        width: 36px;
+    }
+
+    .contact .list-contact p {
+        font-size: 20px;
+    }
+
+    /* End Main Area */
+
+
+    /* Footer Area */
+    footer {
+        color: #9D9D9D;
+        font-size: 15px;
+    }
+    /* End Footer Area */
+ }
+
+ @media (min-width: 768px) and (max-width: 991px) {
+     /* Header Area */
+     .navbar {
+         background-color: black;
+     }
+    .navbar .navbar-nav .nav-link {
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    .navbar .navbar-brand img{
+        width: 130px;
+    }
+    /* End Header Area */
+
+    /* Main Area */
+
+    /* #################### BANNER ####################*/
+    .banner {
+        margin-top: 0;
+        height: 700px;
+        background-position-x: center;
+        text-align: center;
+    }
+
+    .banner::after {
+        height: 805px;
+    }
+
+    .banner h1 {
+        margin-top: 100px;
+        font-size: 80px;
+    }
+
+
+
+    
+
+
+    /* End Main Area */
+ }
