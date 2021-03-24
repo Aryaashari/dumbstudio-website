@@ -333,6 +333,10 @@ footer {
         width: 300px;
     }
 
+    .project a {
+        font-size: 24px;
+    }
+
 
 
     /* #################### INFORMATION ####################*/
