@@ -28,6 +28,7 @@
     background-size: cover;
     margin-top: -128px;
     background-attachment: fixed;
+    min-height: 500px;
 }
 
 .banner::after {
