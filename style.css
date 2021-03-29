@@ -76,6 +76,7 @@
 .about {
     margin-top: 153px;
     /* margin-bottom: 153px; */
+    opacity: 0;
 }
 
 .about .text h1 {
